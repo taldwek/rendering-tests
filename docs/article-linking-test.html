@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Article Linking Test Case</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        margin: 24px;
+        max-width: 800px;
+      }
+      h1 { color: #333; }
+      .test-case {
+        background: #f5f5f5;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 20px 0;
+      }
+      .article-link {
+        display: inline-block;
+        background: #28a745;
+        color: white;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 6px;
+        margin: 10px 0;
+      }
+      .article-link:hover {
+        background: #218838;
+      }
+      code {
+        background: #eee;
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+      ul {
+        line-height: 1.8;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Article Linking Test Case</h1>
+
+    <div class="test-case">
+      <h2>Test Description</h2>
+      <p>
+        This test case verifies that clicking on a link from one article to another article
+        works correctly when content is harmonized.
+      </p>
+      <p>
+        Internal article links should navigate to the correct destination, maintaining
+        the proper URL structure within the harmonized content system.
+      </p>
+    </div>
+
+    <div class="test-case">
+      <h2>Related Test Cases</h2>
+      <p>Click the link below to navigate to a related test case:</p>
+
+      <a href="/rendering-tests/non-harmonized-pptx-test.html" class="article-link">
+        📄 Go to Non-Harmonized PPTX Test Case
+      </a>
+
+      <p>
+        <small><strong>Expected behavior:</strong> The link should navigate to the PPTX test case article
+        without breaking the navigation or losing context.</small>
+      </p>
+    </div>
+
+    <div class="test-case">
+      <h2>Additional Test Links</h2>
+      <p>Other articles and resources you can navigate to:</p>
+      <ul>
+        <li>
+          <a href="/rendering-tests/non-harmonized-pptx-test.html">Non-Harmonized PPTX Test Case</a>
+          - Test case for viewing PPTX files at source
+        </li>
+        <li>
+          <a href="/rendering-tests/fixtures/TC-260-43_non-harmonized-pdf-viewer-fixture.pdf">Sample PDF Fixture</a>
+          - Direct link to a PDF test file
+        </li>
+        <li>
+          <a href="/rendering-tests/">Fixtures Index</a>
+          - Main index of all test fixtures
+        </li>
+      </ul>
+    </div>
+
+    <div class="test-case">
+      <h2>Link Information</h2>
+      <ul>
+        <li><strong>Link type:</strong> Internal article link</li>
+        <li><strong>Target:</strong> Non-Harmonized PPTX Test Case</li>
+        <li><strong>Path:</strong> <code>/rendering-tests/non-harmonized-pptx-test.html</code></li>
+        <li><strong>Expected behavior:</strong> Navigate to target article while preserving harmonized context</li>
+      </ul>
+    </div>
+
+    <p>
+      <a href="/rendering-tests/">← Back to Fixtures Index</a>
+    </p>
+  </body>
+</html>
