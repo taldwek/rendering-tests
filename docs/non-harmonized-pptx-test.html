@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Non-Harmonized PPTX Test Case</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        margin: 24px;
+        max-width: 800px;
+      }
+      h1 { color: #333; }
+      .test-case {
+        background: #f5f5f5;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 20px 0;
+      }
+      .download-link {
+        display: inline-block;
+        background: #0066cc;
+        color: white;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 6px;
+        margin: 10px 0;
+      }
+      .download-link:hover {
+        background: #0052a3;
+      }
+      code {
+        background: #eee;
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Non-Harmonized PPTX Test Case</h1>
+
+    <div class="test-case">
+      <h2>Test Description</h2>
+      <p>
+        This test case verifies that clicking on a link to a non-harmonized file (PPTX)
+        will open the file in the appropriate viewer or trigger a download.
+      </p>
+      <p>
+        Non-harmonized files are meant to be <strong>viewed at the source</strong> rather
+        than being converted or displayed inline.
+      </p>
+    </div>
+
+    <div class="test-case">
+      <h2>Test File</h2>
+      <p>Click the link below to test the non-harmonized PPTX viewer behavior:</p>
+      <a href="./fixtures/Dickinson_Sample_Slides.pptx" class="download-link">
+        📄 Dickinson_Sample_Slides.pptx
+      </a>
+      <p>
+        <small><strong>Expected behavior:</strong> The PPTX file should either open in your default presentation viewer
+        or prompt you to download it.</small>
+      </p>
+    </div>
+
+    <div class="test-case">
+      <h2>File Information</h2>
+      <ul>
+        <li><strong>File type:</strong> PowerPoint Presentation (.pptx)</li>
+        <li><strong>Status:</strong> Non-harmonized</li>
+        <li><strong>Path:</strong> <code>./fixtures/Dickinson_Sample_Slides.pptx</code></li>
+      </ul>
+    </div>
+
+    <p>
+      <a href="./index.html">← Back to Fixtures Index</a>
+    </p>
+  </body>
+</html>
